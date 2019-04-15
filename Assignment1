@@ -6,5 +6,9 @@ my.name <- "therese"
 makeIntroduction <- c(my.name, my.age)
 #function sentence
 makeIntroduction <- paste("hello my name is", my.name, "and I am", my.age, "years old")
+#Intro
+my.intro <- c(my.name, my.age)
+my.intro
 #function casual intro
-casual.intro <- sub("hello my name is", "hey I'm", makeIntroduction)
+casual.intro <- sub("hello my name is", "hey I'm", my.intro)
+casual.intro
