@@ -1,0 +1,10 @@
+#variable age
+my.age <- 24
+#variable name
+my.name <- "therese"
+#function introduction
+makeIntroduction <- c(my.name, my.age)
+#function sentence
+makeIntroduction <- paste("hello my name is", my.name, "and I am", my.age, "years old")
+#function casual intro
+casual.intro <- sub("hello my name is", "hey I'm", makeIntroduction)
