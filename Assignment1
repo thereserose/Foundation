@@ -36,3 +36,17 @@ books.without.four
 #long titles
 long.titles <- book [length(15)]
 long.titles
+
+##PART THREE
+#variable
+my.numbers <- 1:201
+my.numbers
+#squared
+squared.numbers <- my.numbers^2
+squared.numbers
+#squared mean
+squared.mean <- mean(squared.numbers)
+squared.mean
+#perfect squares
+square <- sqrt(my.numbers)
+square
