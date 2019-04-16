@@ -9,6 +9,10 @@ makeIntroduction <- paste("hello my name is", my.name, "and I am", my.age, "year
 #Intro
 my.intro <- c(my.name, my.age)
 my.intro
+my.intro <- makeIntroduction
 #function casual intro
 casual.intro <- sub("hello my name is", "hey I'm", my.intro)
 casual.intro
+#capital intro
+capital.intro <- str_to_title(my.intro)
+capital.intro
