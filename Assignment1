@@ -1,3 +1,4 @@
+##PART ONE
 #variable age
 my.age <- 24
 #variable name
@@ -16,3 +17,22 @@ casual.intro
 #capital intro
 capital.intro <- str_to_title(my.intro)
 capital.intro
+#lowercase e
+intro.e.count <-str_count(my.intro, pattern = "e")
+intro.e.count
+
+##PART TWO
+#six books
+book <- c("Extremely Loud and Incredibly Close", "The Road", "The Martian Chronicles", "The Handmaid's Tale", "Brave New World", "The Hours")
+#top three
+top.three.books <- book [c (1,2,3)]
+top.three.books
+#reviews
+book.reviews <- paste(book,"is a great read!")
+book.reviews
+#missing four
+books.without.four <- book [c(1,2,3,5,6)]
+books.without.four
+#long titles
+long.titles <- book [length(15)]
+long.titles
