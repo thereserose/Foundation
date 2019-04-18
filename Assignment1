@@ -48,5 +48,6 @@ squared.numbers
 squared.mean <- mean(squared.numbers)
 squared.mean
 #perfect squares
-square <- sqrt(my.numbers)
-square
+squares <- sqrt(my.numbers)
+squares==as.integer(squares)
+which(squares==as.integer(squares))
